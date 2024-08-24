@@ -10,7 +10,15 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+//    override func pressesBegan(_ presses: Set<UIPress>, with event: UIPressesEvent?) {
+//
+//        for press in presses {
+//            guard let key = press.key else { continue }
+//            
+//            Keyboard.shared.post(key: key)
+//        }
+//
+//    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
